@@ -1,0 +1,7 @@
+extends ./layouts/adminSide.pug
+
+block content
+    form(action="/admin/postCreateAuthor" method="POST")
+        div
+            lable(for="authorName") 작가명
+            input(type="text" id="authorName")
