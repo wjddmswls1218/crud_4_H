@@ -17,10 +17,12 @@ block content
             li 작가
             li 금액
     section.bookDataList
-        each book in Books
+        each book in books
             ul
                 li 1
-                li #{book.title}
+                li #{book.title} 
                 li #{book.location}
                 li #{book.author.name}
                 li #{book.price} 원
+                
+    
